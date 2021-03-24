@@ -25,10 +25,10 @@ yarn add cabul
 ## Basic
 
 ```js
-const crot = require('cabul');
-const client = new crot.Client();
+const cabulAPI = require('cabul');
+const client = new cabulAPI.Client();
 
-client.hentai().then((data) => {
+client.atago().then((data) => {
     // return with data
     // or push with yours
     // console.log(data); for your best Friend
@@ -50,8 +50,8 @@ client.hentai().then((data) => {
 > If don't mind for selecting endpoints, simply just mix them, eg:
 
 ```js
-const crot = require('cabul');
-const client = new crot.Client();
+const cabulAPI = require('cabul');
+const client = new cabulAPI.Client();
 
 async function reddit() {
     const rTags = [
